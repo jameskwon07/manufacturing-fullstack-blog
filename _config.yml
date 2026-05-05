@@ -1,0 +1,40 @@
+title: 제조 풀스택 설계 노트
+description: 제조 도메인에 특화된 풀스택 애플리케이션 개발, 설계, 데이터 모델링을 공부하고 기록합니다.
+url: "https://jameskwon07.github.io"
+baseurl: "/manufacturing-fullstack-blog"
+lang: ko-KR
+timezone: Asia/Seoul
+
+author:
+  name: 필명
+  bio: 제조 도메인 풀스택 개발을 공부하고 기록합니다.
+
+comments:
+  provider: utterances
+  repo: jameskwon07/manufacturing-fullstack-blog
+  issue_term: pathname
+  label: comment
+  theme: github-light
+
+permalink: /:categories/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - drafts/
+  - README.md

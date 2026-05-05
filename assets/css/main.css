@@ -1,0 +1,276 @@
+:root {
+  --bg: #f8faf7;
+  --panel: #ffffff;
+  --ink: #18211f;
+  --muted: #66716d;
+  --line: #d9e0dc;
+  --accent: #0e6b55;
+  --accent-strong: #094636;
+  --code-bg: #eef3ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.site-header,
+.site-footer,
+.site-main {
+  width: min(100% - 32px, 960px);
+  margin: 0 auto;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px 0 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  color: var(--ink);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  color: var(--muted);
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: var(--accent-strong);
+}
+
+.site-main {
+  padding: 54px 0 72px;
+}
+
+.intro {
+  max-width: 760px;
+  margin-bottom: 54px;
+}
+
+.eyebrow,
+.post-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+h1 {
+  margin: 0 0 18px;
+  font-size: clamp(2rem, 5vw, 3.8rem);
+}
+
+h2 {
+  margin-top: 42px;
+  font-size: 1.6rem;
+}
+
+h3 {
+  margin: 6px 0 10px;
+}
+
+.lede {
+  color: var(--muted);
+  font-size: 1.12rem;
+  max-width: 720px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.section-heading h2 {
+  margin: 0;
+}
+
+.post-list {
+  display: grid;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.post-list.compact {
+  gap: 8px;
+}
+
+.post-list.compact li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.post-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.post-card a {
+  display: block;
+  padding: 22px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.post,
+.page-content {
+  max-width: 760px;
+}
+
+.post-header,
+.page-header {
+  margin-bottom: 34px;
+}
+
+.post-content img {
+  max-width: 100%;
+}
+
+blockquote {
+  margin: 28px 0;
+  padding: 2px 0 2px 20px;
+  border-left: 4px solid var(--accent);
+  color: var(--muted);
+}
+
+code {
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
+  background: var(--code-bg);
+}
+
+pre {
+  overflow-x: auto;
+  padding: 18px;
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
+pre code {
+  padding: 0;
+}
+
+.category-section {
+  margin-bottom: 36px;
+}
+
+.search-panel {
+  max-width: 760px;
+}
+
+.search-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 800;
+}
+
+.search-input {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.search-results {
+  display: grid;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.search-result {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.search-result h2 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+}
+
+.site-footer {
+  padding: 24px 0 36px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.comments {
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 680px) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .post-list.compact li {
+    flex-direction: column;
+    gap: 2px;
+  }
+}
+
