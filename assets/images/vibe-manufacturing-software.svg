@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">제조 소프트웨어 설계 일러스트</title>
+  <desc id="desc">AI 보조 코딩, 제조 업무 흐름, 데이터 모델링, 운영 지표를 연결한 추상 일러스트.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8faf7"/>
+      <stop offset="0.52" stop-color="#eef5f0"/>
+      <stop offset="1" stop-color="#e5f0eb"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f1f6f3"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#15352d" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M0 514 C170 455 270 525 420 474 C600 412 710 493 885 433 C1020 386 1106 405 1200 366 L1200 630 L0 630 Z" fill="#dbe9e2"/>
+  <path d="M0 560 C180 514 302 585 470 526 C650 463 785 545 945 492 C1050 457 1132 476 1200 440 L1200 630 L0 630 Z" fill="#cfe0d7"/>
+
+  <g filter="url(#soft-shadow)">
+    <rect x="84" y="84" width="392" height="282" rx="8" fill="url(#panel)" stroke="#cfdbd5"/>
+    <rect x="111" y="116" width="338" height="34" rx="6" fill="#e5eee9"/>
+    <circle cx="132" cy="133" r="5" fill="#0e6b55"/>
+    <circle cx="151" cy="133" r="5" fill="#87a69a"/>
+    <circle cx="170" cy="133" r="5" fill="#c5d4cd"/>
+    <rect x="112" y="178" width="106" height="12" rx="6" fill="#0e6b55"/>
+    <rect x="112" y="210" width="246" height="10" rx="5" fill="#a8bdb4"/>
+    <rect x="112" y="238" width="196" height="10" rx="5" fill="#b7c8c1"/>
+    <rect x="112" y="266" width="274" height="10" rx="5" fill="#a8bdb4"/>
+    <rect x="112" y="294" width="160" height="10" rx="5" fill="#b7c8c1"/>
+    <path d="M349 178 L414 243 L349 308" fill="none" stroke="#0e6b55" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <rect x="724" y="84" width="392" height="282" rx="8" fill="url(#panel)" stroke="#cfdbd5"/>
+    <rect x="763" y="130" width="86" height="170" rx="7" fill="#dce8e2" stroke="#b9cbc2"/>
+    <rect x="874" y="172" width="86" height="128" rx="7" fill="#dce8e2" stroke="#b9cbc2"/>
+    <rect x="985" y="112" width="58" height="188" rx="7" fill="#dce8e2" stroke="#b9cbc2"/>
+    <path d="M746 302 H1075" stroke="#879b93" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="793" cy="332" r="17" fill="#0e6b55"/>
+    <circle cx="927" cy="332" r="17" fill="#0e6b55"/>
+    <circle cx="1040" cy="332" r="17" fill="#0e6b55"/>
+    <path d="M806 130 V100 H1014 V112" fill="none" stroke="#87a69a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M917 172 V100" fill="none" stroke="#87a69a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <path d="M486 218 C548 218 562 151 624 151 C681 151 696 218 756 218" fill="none" stroke="#0e6b55" stroke-width="8" stroke-linecap="round"/>
+    <path d="M486 282 C548 282 562 349 624 349 C681 349 696 282 756 282" fill="none" stroke="#0e6b55" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="624" cy="151" r="12" fill="#0e6b55"/>
+    <circle cx="624" cy="349" r="12" fill="#0e6b55"/>
+    <circle cx="486" cy="218" r="10" fill="#87a69a"/>
+    <circle cx="756" cy="218" r="10" fill="#87a69a"/>
+    <circle cx="486" cy="282" r="10" fill="#87a69a"/>
+    <circle cx="756" cy="282" r="10" fill="#87a69a"/>
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <rect x="276" y="414" width="648" height="124" rx="8" fill="#ffffff" stroke="#cfdbd5"/>
+    <text x="322" y="464" fill="#18211f" font-family="Arial, sans-serif" font-size="24" font-weight="700">생성된 코드보다 오래 남는 도메인 결정</text>
+    <rect x="322" y="492" width="148" height="12" rx="6" fill="#0e6b55"/>
+    <rect x="494" y="492" width="236" height="12" rx="6" fill="#9fb8ad"/>
+    <rect x="754" y="492" width="116" height="12" rx="6" fill="#c2d1ca"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="170" cy="466" r="7" fill="#0e6b55"/>
+    <circle cx="205" cy="503" r="5" fill="#87a69a"/>
+    <circle cx="1016" cy="452" r="7" fill="#0e6b55"/>
+    <circle cx="1062" cy="489" r="5" fill="#87a69a"/>
+    <path d="M170 466 L205 503" stroke="#87a69a" stroke-width="3"/>
+    <path d="M1016 452 L1062 489" stroke="#87a69a" stroke-width="3"/>
+  </g>
+</svg>
