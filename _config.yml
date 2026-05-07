@@ -1,7 +1,7 @@
 title: 제조 풀스택 설계 노트
 description: 제조 도메인에 특화된 풀스택 애플리케이션 개발, 설계, 데이터 모델링을 공부하고 기록합니다.
-url: "https://jameskwon07.github.io"
-baseurl: "/manufacturing-fullstack-blog"
+url: "https://codingbridge.blog"
+baseurl: ""
 lang: ko-KR
 timezone: Asia/Seoul
 
